@@ -23,6 +23,10 @@ footer {
   text-align: center;
 }
 /* Body */
+body {
+  background-color: #f8f9fa;
+}
+
 h1,
 h3 {
   color: #98140d;
