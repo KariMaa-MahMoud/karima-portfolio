@@ -15,9 +15,21 @@
 }
 
 footer {
+  margin-top: 100px;
   padding: 20px;
   font-size: 15px;
   background-color: #343a40;
   color: #fff;
   text-align: center;
+}
+/* Body */
+h1,
+h3 {
+  color: #98140d;
+  text-align: center;
+  margin: 30px;
+  font-family: "Playwrite AU VIC", cursive;
+}
+.about-me {
+  font-family: "Signika Negative", sans-serif;
 }
