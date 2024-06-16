@@ -38,18 +38,17 @@ h3 {
   font-family: "Signika Negative", sans-serif;
 }
 /* Main Body */
-.main-body {
-  padding-top: 50px;
-}
-.titles {
-  padding: 100px;
-}
+
 p {
   font-size: 25px;
+  font-family: "Signika Negative", sans-serif;
 }
 a {
   text-decoration: none;
   color: #0c650f;
+}
+b {
+  color: #98140d;
 }
 
 a:hover {
@@ -66,4 +65,5 @@ a:hover {
 .custom-main-image {
   width: 500px;
   height: 500px;
+  border-radius: 20px;
 }
