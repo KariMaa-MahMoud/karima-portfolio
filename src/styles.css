@@ -67,3 +67,8 @@ a:hover {
   height: 500px;
   border-radius: 20px;
 }
+.view-work-button {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Playwrite AU VIC", cursive;
+}
