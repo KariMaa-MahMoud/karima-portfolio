@@ -1,6 +1,6 @@
 #datetime {
   text-align: center;
-  margin: 30px;
+  margin-top: 20px;
   font-size: 15px;
   font-weight: bold;
   color: #333;
@@ -14,15 +14,7 @@
   justify-content: flex-end;
 }
 
-footer {
-  margin-top: 100px;
-  padding: 20px;
-  font-size: 15px;
-  background-color: #343a40;
-  color: #fff;
-  text-align: center;
-}
-/* Body */
+/* about me page */
 body {
   background-color: #f8f9fa;
 }
@@ -37,15 +29,15 @@ h3 {
 .about-me {
   font-family: "Signika Negative", sans-serif;
 }
-/* Main Body */
+/* main page body */
 
 p {
-  font-size: 25px;
+  font-size: 35px;
   font-family: "Signika Negative", sans-serif;
 }
 a {
   text-decoration: none;
-  color: #0c650f;
+  color: #98140d;
 }
 b {
   color: #98140d;
@@ -71,4 +63,14 @@ a:hover {
   margin-top: 100px;
   text-align: center;
   font-family: "Playwrite AU VIC", cursive;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #646d76;
+  color: #fff;
+  text-align: center;
 }

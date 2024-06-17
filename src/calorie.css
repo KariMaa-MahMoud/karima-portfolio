@@ -1,3 +1,6 @@
+body {
+  background-color: #f8f9fa;
+}
 /* Header */
 .logo {
   width: 200px;
@@ -6,18 +9,10 @@
   justify-content: flex-end;
 }
 
-footer {
-  margin-top: 100px;
-  padding: 20px;
-  font-size: 15px;
-  background-color: #343a40;
-  color: #fff;
-  text-align: center;
-}
 /* Links */
 a {
   text-decoration: none;
-  color: #0c650f;
+  color: #98140d;
 }
 
 a:hover {
@@ -65,4 +60,14 @@ h2 {
 /* body */
 .container {
   margin-top: 50px;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #646d76;
+  color: #fff;
+  text-align: center;
 }
