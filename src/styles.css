@@ -3,12 +3,12 @@
   margin-top: 20px;
   font-size: 15px;
   font-weight: bold;
-  color: #333;
+  color: #4d467f;
 }
 /* Header */
 
 .logo {
-  width: 200px;
+  width: 180px;
 }
 .align-right {
   justify-content: flex-end;
@@ -67,12 +67,35 @@ a:hover {
   font-family: "Playwrite AU VIC", cursive;
 }
 
+/* Contacts */
+.contacts {
+  color: #fff;
+  background-color: #4d467f;
+  padding-left: 250px;
+}
+.contacts h1 {
+  color: #fff;
+  line-height: 1.5;
+}
+.social-contacts a i {
+  color: #fff;
+  font-size: 45px;
+}
+
 footer {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #4d467f;
+  text-align: center;
+}
+.about-footer {
   margin-top: 100px;
   padding: 20px;
   font-size: 15px;
   font-weight: bolder;
-  background-color: #646d76;
+  background-color: #4d467f;
   color: #fff;
+
   text-align: center;
 }
