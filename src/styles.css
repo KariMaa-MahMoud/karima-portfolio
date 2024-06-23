@@ -99,3 +99,6 @@ footer {
 
   text-align: center;
 }
+/* responsive */
+@media (max-width: 900px) {
+}
