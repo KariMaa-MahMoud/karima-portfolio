@@ -102,15 +102,24 @@ footer {
 
 /* Responsive CSS */
 
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .custom-main-image {
     width: 100%;
     height: auto;
     border-radius: 0;
   }
+  h1,
+  h3 {
+    font-size: 30px;
+    margin: 20px;
+  }
+
+  p {
+    font-size: 25px;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .align-right {
     justify-content: flex-start;
   }
@@ -149,7 +158,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .logo {
     width: 120px;
   }
