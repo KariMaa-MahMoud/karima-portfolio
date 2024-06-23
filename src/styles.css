@@ -99,6 +99,83 @@ footer {
 
   text-align: center;
 }
-/* responsive */
-@media (max-width: 900px) {
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 992px) {
+  .custom-main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .align-right {
+    justify-content: flex-start;
+  }
+
+  .contacts {
+    padding: 0;
+  }
+
+  h1,
+  h3 {
+    font-size: 24px;
+    margin: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .our-products {
+    margin: 50px;
+    padding: 20px;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .contacts h1 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .social-contacts a i {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .logo {
+    width: 120px;
+  }
+
+  .contacts {
+    padding-left: 20px;
+  }
+
+  .projects {
+    margin: 50px;
+  }
+
+  .our-products {
+    margin: 30px;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .view-work-button {
+    margin-top: 50px;
+    font-size: 18px;
+  }
+
+  .custom-main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
 }
